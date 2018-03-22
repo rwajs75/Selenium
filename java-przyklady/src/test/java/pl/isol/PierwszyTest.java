@@ -27,9 +27,9 @@ public class PierwszyTest {
     @Test
     public void googleTest() {
         driver.get("http://google.pl");
-        driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Selenium");
+        driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Selenium1");
         driver.findElement(By.xpath("//input[@name='btnK']")).click();
-        wait.until(titleIs("Selenium - Szukaj w Google"));
+        wait.until(titleIs("Selenium1 - Szukaj w Google"));
     }
 
     @After
