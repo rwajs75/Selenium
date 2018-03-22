@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="java-przyklady" external.linked.project.path="$MODULE_DIR$/../../java-przyklady" external.root.project.path="$MODULE_DIR$/../../java-przyklady" external.system.id="GRADLE" external.system.module.group="pl.isol" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../java-przyklady">
+      <excludeFolder url="file://$MODULE_DIR$/../../java-przyklady/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../java-przyklady/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../java-przyklady/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
