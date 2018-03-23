@@ -36,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PierwszyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PierwszyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="588">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogowanieLitecart.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -352,6 +364,7 @@
       <list>
         <option value="$PROJECT_DIR$/java-przyklady/build.gradle" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java" />
+        <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java" />
       </list>
     </option>
   </component>
@@ -377,7 +390,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,12 +398,38 @@
               <item name="java-przyklady" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-przyklady" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="java-przyklady" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-przyklady" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-przyklady" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-przyklady" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-przyklady" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-przyklady" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-przyklady" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-przyklady" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isol" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -412,7 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LogowanieLitecart">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -433,6 +472,56 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="LogowanieLitecart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pl.isol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-przyklady_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pl.isol" />
+      <option name="MAIN_CLASS_NAME" value="pl.isol.LogowanieLitecart" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LogowanieLitecart.testLogowanieLitecart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pl.isol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-przyklady_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pl.isol" />
+      <option name="MAIN_CLASS_NAME" value="pl.isol.LogowanieLitecart" />
+      <option name="METHOD_NAME" value="testLogowanieLitecart" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="PierwszyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -519,9 +608,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PierwszyTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LogowanieLitecart.testLogowanieLitecart" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LogowanieLitecart" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PierwszyTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LogowanieLitecart" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LogowanieLitecart.testLogowanieLitecart" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PierwszyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -542,35 +638,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 26m 31s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart - 2018.03.23 at 08h 47m 52s.xml">
+      <configuration name="LogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 27m 13s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart - 2018.03.23 at 08h 48m 22s.xml">
+      <configuration name="LogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 28m 18s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart - 2018.03.23 at 10h 22m 56s.xml">
+      <configuration name="LogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 29m 00s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart - 2018.03.23 at 10h 23m 55s.xml">
+      <configuration name="LogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 31m 47s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart_testLogowanieLitecart - 2018.03.22 at 13h 28m 12s.xml">
+      <configuration name="LogowanieLitecart.testLogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 32m 07s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart_testLogowanieLitecart - 2018.03.22 at 13h 28m 56s.xml">
+      <configuration name="LogowanieLitecart.testLogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 32m 29s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart_testLogowanieLitecart - 2018.03.22 at 13h 29m 12s.xml">
+      <configuration name="LogowanieLitecart.testLogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 08h 33m 12s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart_testLogowanieLitecart - 2018.03.22 at 13h 33m 57s.xml">
+      <configuration name="LogowanieLitecart.testLogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 12h 24m 59s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart_testLogowanieLitecart - 2018.03.22 at 13h 35m 56s.xml">
+      <configuration name="LogowanieLitecart.testLogowanieLitecart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PierwszyTest - 2018.03.22 at 12h 34m 18s.xml">
-      <configuration name="PierwszyTest" configurationId="JUnit" />
+    <history-entry file="LogowanieLitecart_testLogowanieLitecart - 2018.03.22 at 13h 44m 06s.xml">
+      <configuration name="LogowanieLitecart.testLogowanieLitecart" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -610,6 +706,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -617,6 +718,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java-przyklady/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java-przyklady/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -724,8 +909,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="588">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
