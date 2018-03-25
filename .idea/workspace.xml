@@ -51,8 +51,8 @@
       <file leaf-file-name="LogowanieLitecart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="257">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -638,9 +638,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogowanieLitecart - 2018.03.23 at 14h 09m 18s.xml">
-      <configuration name="LogowanieLitecart" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LogowanieLitecart - 2018.03.23 at 14h 12m 09s.xml">
       <configuration name="LogowanieLitecart" configurationId="JUnit" />
     </history-entry>
@@ -663,6 +660,9 @@
       <configuration name="LogowanieLitecart" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LogowanieLitecart - 2018.03.25 at 17h 14m 41s.xml">
+      <configuration name="LogowanieLitecart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogowanieLitecart - 2018.03.25 at 17h 16m 23s.xml">
       <configuration name="LogowanieLitecart" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LogowanieLitecart_testLogowanieLitecart - 2018.03.22 at 13h 44m 06s.xml">
@@ -955,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="257">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
