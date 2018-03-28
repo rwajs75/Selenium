@@ -1,6 +1,7 @@
 package pl.isol;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -26,25 +27,26 @@ public class LogowanieLitecart {
 
     @Before
     public void start() {
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("unexpectedAlertBehaviour", "dismiss");
+        //DesiredCapabilities caps = new DesiredCapabilities();
+        //caps.setCapability("unexpectedAlertBehaviour", "dismiss");
         //caps.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
         //caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
         //caps.setCapability(FirefoxDriver.MARIONETTE, false);
         //driver = new FirefoxDriver(new FirefoxOptions(caps).setLegacy(true));
         //driver = new FirefoxDriver(new FirefoxBinary(new File("c:\\Program Files\\Nightly\\firefox.exe")), new FirefoxProfile(), caps);
-        //driver = new ChromeDriver(caps);
-        driver = new InternetExplorerDriver(caps);
-        System.out.println(((HasCapabilities) driver).getCapabilities());
+        driver = new ChromeDriver();
+        //driver = new InternetExplorerDriver(caps);
+        //System.out.println(((HasCapabilities) driver).getCapabilities());
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 10);
     }
 
     @Test
-    public void testLogowanieLitecart() {
+    public void testLogowanieLitecart() throws InterruptedException {
         driver.get("http://localhost/litecart/admin/");
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys("root");
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("root");
+        driver.findElement(By.xpath("//button[@name='login']")).click();
         wait.until(titleIs("My Store"));
     }
 
