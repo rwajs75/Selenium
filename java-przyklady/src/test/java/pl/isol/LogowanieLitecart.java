@@ -32,9 +32,9 @@ public class LogowanieLitecart {
         //caps.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
         //caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
         //caps.setCapability(FirefoxDriver.MARIONETTE, false);
-        //driver = new FirefoxDriver(new FirefoxOptions(caps).setLegacy(true));
+        driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         //driver = new FirefoxDriver(new FirefoxBinary(new File("c:\\Program Files\\Nightly\\firefox.exe")), new FirefoxProfile(), caps);
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
         //driver = new InternetExplorerDriver(caps);
         //System.out.println(((HasCapabilities) driver).getCapabilities());
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
