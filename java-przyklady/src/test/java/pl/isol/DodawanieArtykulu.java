@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -65,8 +67,19 @@ public class DodawanieArtykulu {
         wyczyscPoleIWprowadzDane(By.name("gross_prices[USD]"), Integer.toString(random.nextInt(30)));
         wyczyscPoleIWprowadzDane(By.name("gross_prices[EUR]"), Integer.toString(random.nextInt(30)));
         klik(By.xpath("//button[@name='save']"));
+        int liczbaProduktow = driver.findElements(By.xpath("//*[@id='content']/form/table/tbody//td[3]/a")).size();
+        ArrayList<Produkt> listaProduktow = new ArrayList<Produkt>();
+        for (int i = 4; i < liczbaProduktow + 3; i++) {
+            Produkt produktObj = new Produkt();
+            produktObj.nazwaProduktu = driver.findElement(By.xpath("//*[@id='content']/form/table/tbody/tr[" + i + "]/td[3]/a")).getText();
+            listaProduktow.add(produktObj);
+            System.out.println(produktObj.nazwaProduktu);
+        }
+        Assert.assertTrue(listaProduktow.stream().map(Produkt::getNazwaProduktu).filter(p -> nazwa.equals(p))
+                .findAny().isPresent());
         String nazwaNaLiscie = driver.findElement(By.xpath("//a[contains(.,'" + nazwa + "')]")).getText();
         Assert.assertEquals(nazwaNaLiscie, nazwa);
+
     }
 
     private void wyczyscPoleIWprowadzDane(By lokalizator, String tekst) {
