@@ -6,7 +6,7 @@ public class Produkt {
 //    public Produkt() {
 //        this.nazwaProduktu = "";
 //    }
-    
+
     public String getNazwaProduktu() {
         return nazwaProduktu;
     }
