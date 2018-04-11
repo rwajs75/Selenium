@@ -26,15 +26,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PracaZKoszykiem.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PracaZKoszykiem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PracaZKoszykiem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="46" column="88" selection-start-line="46" selection-start-column="88" selection-end-line="46" selection-end-column="88" />
+            <state relative-caret-position="315">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2150#2151#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkiWNowymOknie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LinkiWNowymOknie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2605#2606#0" expanded="true" />
+                <element signature="e#2668#2669#0" expanded="true" />
+                <element signature="e#2709#2710#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,22 +57,13 @@
       <file leaf-file-name="DodawanieArtykulu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/DodawanieArtykulu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="1743">
+              <caret line="101" column="5" selection-start-line="82" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4462#4463#0" expanded="true" />
                 <element signature="e#4517#4518#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestStronyTowaru.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/TestStronyTowaru.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -75,6 +80,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>klik</find>
+      <find>by.c</find>
+      <find>select</find>
+      <find>elements</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\rwajs\IdeaProjects\Selenium\java-przyklady\src\test\java\pl\isol</dir>
@@ -375,7 +383,6 @@
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/TestKlikaniePoMenu.java" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java" />
-        <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/TestSprawdzanieNaklejek.java" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/Sortowania.java" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/TestSprawdzenieSortowaniaKrajow.java" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/Strefa.java" />
@@ -390,14 +397,16 @@
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/Produkt.java" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PaginationTest.java" />
         <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PracaZKoszykiem.java" />
+        <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/TestSprawdzanieNaklejek.java" />
+        <option value="$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LinkiWNowymOknie.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="1911" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -405,9 +414,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -471,7 +480,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PracaZKoszykiem">
+  <component name="RunManager" selected="JUnit.LinkiWNowymOknie">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -490,6 +499,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.isol" />
       <option name="MAIN_CLASS_NAME" value="pl.isol.DodawanieArtykulu" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LinkiWNowymOknie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-przyklady_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.isol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pl.isol" />
+      <option name="MAIN_CLASS_NAME" value="pl.isol.LinkiWNowymOknie" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -570,29 +602,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestStronyTowaru" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-przyklady_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.isol.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.isol" />
-      <option name="MAIN_CLASS_NAME" value="pl.isol.TestStronyTowaru" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -645,19 +654,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestStronyTowaru" />
       <item itemvalue="JUnit.RejestracjaUzytkownika" />
       <item itemvalue="JUnit.DodawanieArtykulu" />
       <item itemvalue="JUnit.PaginationTest" />
       <item itemvalue="JUnit.PracaZKoszykiem" />
+      <item itemvalue="JUnit.LinkiWNowymOknie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkiWNowymOknie" />
         <item itemvalue="JUnit.PracaZKoszykiem" />
         <item itemvalue="JUnit.PaginationTest" />
         <item itemvalue="JUnit.DodawanieArtykulu" />
         <item itemvalue="JUnit.RejestracjaUzytkownika" />
-        <item itemvalue="JUnit.TestStronyTowaru" />
       </list>
     </recent_temporary>
   </component>
@@ -675,39 +684,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 15h 19m 15s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.10 at 12h 05m 16s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 15h 30m 24s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.10 at 12h 40m 30s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 15h 57m 54s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.10 at 13h 18m 44s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 16h 02m 55s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.10 at 17h 01m 57s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 16h 04m 33s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.11 at 12h 42m 44s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 16h 07m 13s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.11 at 12h 45m 58s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 20h 42m 38s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.11 at 12h 51m 25s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 20h 45m 47s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.11 at 12h 52m 46s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 20h 47m 56s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.11 at 12h 55m 35s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracaZKoszykiem - 2018.04.08 at 20h 48m 44s.xml">
-      <configuration name="PracaZKoszykiem" configurationId="JUnit" />
+    <history-entry file="LinkiWNowymOknie - 2018.04.11 at 13h 00m 30s.xml">
+      <configuration name="LinkiWNowymOknie" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -718,19 +727,18 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3118644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3108253" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19375" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4214689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42122185" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -738,6 +746,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -750,24 +759,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="59" />
+      <option name="time" value="60" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PierwszyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LogowanieLitecart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-przyklady/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1074,6 +1069,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.11.0/721435e04d8be56e7770ebf05509f31b75695f61/selenium-support-3.11.0-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="242" column="15" selection-start-line="242" selection-start-column="15" selection-end-line="242" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PracaZKoszykiem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1082,22 +1091,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/TestSprawdzanieNaklejek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="299">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/TestStronyTowaru.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="232">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/DodawanieArtykulu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="1743">
+          <caret line="101" column="5" selection-start-line="82" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4462#4463#0" expanded="true" />
@@ -1106,14 +1115,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/PracaZKoszykiem.java">
+    <entry file="file://$PROJECT_DIR$/java-przyklady/src/test/java/pl/isol/LinkiWNowymOknie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="46" column="88" selection-start-line="46" selection-start-column="88" selection-end-line="46" selection-end-column="88" />
+        <state relative-caret-position="299">
+          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
+            <element signature="e#2605#2606#0" expanded="true" />
+            <element signature="e#2668#2669#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
           </folding>
         </state>
       </provider>
